@@ -11,10 +11,18 @@
     <div class="page">
         <div class="title">
             Is
-            <input size="10" placeholder="google.com" id="sitename" />
+            <input size="10" placeholder="google.com" id="sitename" oninput="disableButton(this)"/>
             down?
         </div>
-        <button onclick="checkWebsite()">Check</button>
+        <button onclick="checkWebsite()" id="submitButton" disabled>Check</button>
+        <div id="yes">
+            <div class="answer yes">Yes</div>
+            <p><span id="name-yes"></span> is down, or you have an invalid URL.</p>
+        </div>
+        <div id="no">
+            <div class="answer no">No</div>
+            <p><span id="name-no"></span> is up and running!</p>
+        </div>
     </div>
 
     <script src="scripts.js"></script>

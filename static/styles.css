@@ -12,7 +12,16 @@ body {
 }
 
 .answer {
-
+    font-size: 200px;
+}
+.yes {
+    color: red;
+}
+.no {
+    color: green;
+}
+#yes, #no {
+    display: none;
 }
 
 button {
@@ -22,4 +31,8 @@ button {
 
 input {
     font-size: 60px;
+}
+
+p {
+    font-size: 30px;
 }
