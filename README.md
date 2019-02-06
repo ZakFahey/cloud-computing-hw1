@@ -4,7 +4,7 @@ This website allows a user to input a URL, and the website returns whether or no
 
 ## Running
 
-To run the website locally, install npm and run `npm start`.
+To run the website locally, install npm and run `npm start` in the project's root directory.
 
 ## Technical details
 
